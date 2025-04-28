@@ -44,7 +44,7 @@ body {
 }
 
 .main-button {
-  background: linear-gradient(90deg, #00A706 0%, #108014 50%, #00A706 100%);
+  background: linear-gradient(90deg, #286DC8 0%, #498EE9 46.15%, #286DC8 100%);
   @apply font-bold flex items-center justify-center relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[28px] 800px:text-[32px] 1100px:text-[36px] cursor-pointer;
 }
 
@@ -55,8 +55,8 @@ body {
 
 .submit-button {
   cursor: pointer;
-  background: linear-gradient(90deg, #00A706 0%, #108014 50%, #00A706 100%);
-  @apply font-bold relative w-full overflow-hidden rounded-full uppercase h-[60px] 800px:h-[70px] 1200px:h-[70px] text-[#fff] text-[28px] 800px:text-[32px] 1100px:text-[36px] cursor-pointer;
+  background: linear-gradient(90deg, #286DC8 0%, #498EE9 46.15%, #286DC8 100%);
+  @apply font-bold relative w-full overflow-hidden rounded-full uppercase h-[60px] 800px:h-[70px] 1200px:h-[70px] text-[#fff] text-[24px] 800px:text-[28px] 1100px:text-[32px] cursor-pointer;
 }
 
 .main-button::before, .submit-button::before, .tg-button::before {
@@ -72,7 +72,7 @@ body {
 }
 
 .custom-shadow {
-    box-shadow: 0px 4px 24px 0px #0000001F;
+    box-shadow: 0 4px 24px 0 #0000001F;
 }
 
 @keyframes shine {
@@ -107,19 +107,4 @@ body {
   75% {
     transform: rotate(-3deg);
   }
-}
-
-@keyframes pulse-slow {
-  0%, 100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-  50% {
-    transform: scale(1.1);
-    opacity: 0.7;
-  }
-}
-
-.animate-pulse-slow {
-  animation: pulse-slow 2s infinite;
 }
